@@ -1,6 +1,6 @@
 ---
 title: Validating arbitrary data
-date: 2026-02-16T10:03:18-05:00
+date: 2026-02-16T10:51:25-05:00
 author: Simon Baird
 ---
 In this tutorial we'll introduce some basic Conforma concepts and
@@ -314,7 +314,7 @@ $ ec validate input --file input.yaml --policy policy.yaml --info --output json 
 Error: success criteria not met
 {"success":false,"filepaths":[{"filepath":"input.yaml","violations":[{"msg":"A cat named Fluffy was found!","metadata":{"code":"main.no_cats","description":"Disallow felines. To exclude this rule add \"main.no_cats\" to the `exclude` section of the policy configuration.","solution":"Ensure no cats are present in the animal list!","title":"No cats"}},{"msg":"A cat named Luna was 
 found!","metadata":{"code":"main.no_cats","description":"Disallow felines. To exclude this rule add \"main.no_cats\" to the `exclude` section of the policy configuration.","solution":"Ensure no cats are present in the animal list!","title":"No cats"}}],"warnings":[{"msg":"Charlie is here","metadata":{"code":"main.charlie_watch","description":"Charlie is a troublemaker!","solution":"Keep a close 
-eye on Charlie.","title":"Charlie warning"}}],"successes":null,"success":false,"success-count":0}],"policy":{"sources":[{"policy":["./no-cats"]}]},"ec-version":"v0.8.108","effective-time":"2026-02-16T15:03:18.818953821Z"}
+eye on Charlie.","title":"Charlie warning"}}],"successes":null,"success":false,"success-count":0}],"policy":{"sources":[{"policy":["./no-cats"]}]},"ec-version":"v0.8.108","effective-time":"2026-02-16T15:51:26.291325876Z"}
 
 ```
 
@@ -344,3 +344,5 @@ Violations: 2, Warnings: 1, Successes: 0
 
 ```
 
+If you'd like to try the examples here for yourself, note that you can run
+this exercise interactively using the bash scripts [here](https://github.com/conforma/demos/tree/1626db89bdf4460af9a428bc82023821bce5ab6a/2026-01-validate-input-demo).
