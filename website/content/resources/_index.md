@@ -6,6 +6,32 @@ Whether you're just getting started with supply chain security or looking to dee
 
 These conference presentations, demos, educational videos and articles showcase how organizations are using Conforma to secure their software supply chains.
 
+## From Passive Data to Active Defense: Supply Chain Policy-as-Code with Conforma
+
+**Speaker:** Stefano Pentassuglia, Red Hat  
+**Event:** FOSDEM 2026  
+**Format:** Conference Talk  
+**Link:** [Watch on FOSDEM](https://fosdem.org/2026/schedule/event/UGRZNA-conforma-supply-chain-policy-as-code/)
+
+{{< rawhtml >}}
+<br>
+<video width="560" height="315" controls>
+  <source src="https://video.fosdem.org/2026/ud2208/UGRZNA-conforma-supply-chain-policy-as-code.av1.webm" type="video/webm">
+  <source src="https://video.fosdem.org/2026/ud2208/UGRZNA-conforma-supply-chain-policy-as-code.mp4" type="video/mp4">
+  <track src="https://video.fosdem.org/2026/ud2208/UGRZNA-conforma-supply-chain-policy-as-code.vtt" kind="subtitles" srclang="en" label="English">
+  Your browser does not support the video tag.
+</video>
+<br>
+{{< /rawhtml >}}
+
+An introduction to Conforma that demonstrates transforming supply chain security data into actionable policy enforcement. Organizations often collect abundant security artifacts like SBOMs and SLSA provenance attestations but lack effective mechanisms to enforce policies against them. This talk covers:
+
+- What Conforma is and the problem it solves
+- How security artifacts are evaluated against organizational policies
+- Hands-on demonstration of SBOM Content Hygiene verification and SLSA Provenance policy checks
+
+*Ideal for anyone getting started with Conforma or exploring practical approaches to supply chain policy enforcement.*
+
 ## Enforcing Organization Policies with Enterprise Contract
 
 **Speaker:** Zoran Regvart, Red Hat  
